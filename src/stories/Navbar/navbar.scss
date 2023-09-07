@@ -1,0 +1,13 @@
+.cross {
+  position: absolute;
+  color: #ffff;
+  top: 0;
+  left: 20px;
+  font-size: 40px;
+  z-index: 1000;
+  margin-bottom: 30px;
+  p {
+    color: red;
+    font-weight: bold;
+  }
+}
