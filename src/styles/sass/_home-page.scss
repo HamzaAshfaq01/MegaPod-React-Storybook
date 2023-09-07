@@ -290,7 +290,7 @@
   float: left;
 
   img {
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
   }
 }
 
@@ -298,7 +298,7 @@
   border: 1px solid #ebebeb;
   padding: 45px 35px 46px 40px;
   overflow: hidden;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
   position: relative;
 
   .heart-icon {
@@ -427,7 +427,7 @@
 
 .episodes__item {
   height: 370px;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -514,4 +514,36 @@
       color: $primary-color;
     }
   }
+}
+
+.btn.theme-buttons{
+  background-color: transparent;
+}
+.btn.theme-buttons.active {
+  background-color: #6763fd;
+}
+
+.style-switcher {
+  .btn{
+    border: 1px solid #6763fd;
+    outline: 2px solid #6763fd;
+  }
+  .btn.theme-buttons{
+    background-color: transparent;
+  }
+  .btn.theme-buttons.active {
+    background-color: #6763fd;
+    border: 1px solid #6763fd;
+    outline: 2px solid #6763fd;
+    color: white;
+  }
+}
+
+.dark .btn-check:checked + .btn, .dark :not(.btn-check) + .btn:active, .dark .btn:first-child:active, .dark .btn.active, .dark .btn.show {
+  border: 1px solid #6763fd;
+    outline: 2px solid #6763fd;
+}
+.btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible{
+  border: 1px solid #6763fd;
+    outline: 2px solid #6763fd;
 }

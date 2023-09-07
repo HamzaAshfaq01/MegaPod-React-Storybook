@@ -1,5 +1,89 @@
 .dark {
   background-color: $background-color-dark;
+  .podcast__item__text{
+    border-color: rgba(255,255,255,.09);
+  }
+  .header{
+    border-bottom: 1px solid rgba(104, 99, 253, 0.2);
+  }
+  .style-switcher, .toggle-style-switcher{
+    background-color: $background-color-dark;
+    border-color: rgba(255,255,255,.09);
+    color: white;
+  }
+  .toggle-style-switcher{
+    border-right: 1px solid rgba(255,255,255,.09);
+  }
+  .style-switcher h5 {
+    color: white;
+  }
+  .single__track{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .track__option .jp-seek-bar > div {
+    background-color: rgba(103, 99, 125, 0.1);
+  }
+  .footer__subscriber{
+    background-color: $background-color-dark;
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .podcast__top ul li.active{
+    color: #6763fd !important;
+  }
+  .jp-play-bar{
+    background-color: white;
+  }
+  .podcast__item__text ul li span{
+    color: white;
+  }
+  .podcast__item__text .heart-icon{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.09);
+  }
+  .dark .btn-check:checked + .btn, .dark :not(.btn-check) + .btn:active, .dark .btn:first-child:active, .dark .btn.active, .dark .btn.show {
+    border: 1px solid white !important
+  }
+  .btn-check:checked + .btn:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .btn:first-child:active:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible{
+    border: 1px solid white !important
+  }
+  
+  .style-switcher {
+    .btn{
+      border: 1px solid white;
+    outline: 2px solid white;
+    }
+    .btn.theme-buttons{
+      background-color: rgba(255, 255, 255, 0.09);
+    }
+    .btn.theme-buttons.active {
+      background-color: $background-color-dark;
+      border: 1px solid white;
+    outline: 2px solid white;
+    }
+  }
+  .btn:hover{
+    border: 1px solid white;
+    outline: 2px solid white;
+  }
+  button,.primary-btn{
+    background-color: $background-color-dark;
+    border: 1px solid rgba(255,255,255,.09);
+    color: white;
+  }
+  .primary-btn.white-btn{
+    background-color: white;
+    color: black;
+  }
+  .podcast__top ul li:after{
+    background-color: white;
+  }
+  .header__menu ul li a:after{
+    background-color: white;
+  }
+  .jp-volume-bar-value{
+    background-color: white;
+  }
   .podcast {
     .podcast__top {
       h2,

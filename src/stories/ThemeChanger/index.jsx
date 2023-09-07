@@ -4,6 +4,7 @@ import { changeTheme } from "../../utils/store/slices/theme.slice";
 import { changeFont, textSlice } from "../../utils/store/slices/textSlice";
 const ThemeChanger = () => {
   const [isChecked, setIsChecked] = useState("light");
+  const [activeButton, setActiveButton] = useState(1);
   const [open, setIsopen] = useState(false);
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.theme.value);
@@ -57,27 +58,30 @@ const ThemeChanger = () => {
             <button
               type="button"
               onClick={() => {
+                setActiveButton(1);
                 dispatch(changeFont("standard"));
               }}
-              className="btn theme-buttons"
+              className={`btn theme-buttons m-0 ${activeButton === 1 ? 'active' : ''}`}
             >
               Standard
             </button>
             <button
               type="button"
               onClick={() => {
+                setActiveButton(2);
                 dispatch(changeFont("medium"));
               }}
-              className="btn theme-buttons"
+              className={`btn theme-buttons m-0 ${activeButton === 2 ? 'active' : ''}`}
             >
               Medium
             </button>
             <button
               type="button"
               onClick={() => {
+                setActiveButton(3);
                 dispatch(changeFont("large"));
               }}
-              className="btn theme-buttons"
+              className={`btn theme-buttons m-0 ${activeButton === 3 ? 'active' : ''}`}
             >
               Large
             </button>
