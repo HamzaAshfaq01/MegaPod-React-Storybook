@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# Megapod Storybook React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome `Megapod Storybook React`, a dynamic web application built using `ReactJS` and an array of modern technologies. This project offers a rich user experience with a focus on two main sections: a `blog` and an `episode` player for podcasts.
 
-## Available Scripts
+- ![ReactJS](https://img.shields.io/badge/ReactJS-%2300D8FF.svg?style=flat-square&logo=react&logoColor=white)
+- ![Sass](https://img.shields.io/badge/Sass-%23CC6699.svg?style=flat-square&logo=sass&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat-square&logo=bootstrap&logoColor=white)
+- ![Node.js](https://img.shields.io/badge/Node.js-%2343853D.svg?style=flat-square&logo=node.js&logoColor=white)
+- ![Yarn](https://img.shields.io/badge/Yarn-%232187B6.svg?style=flat-square&logo=yarn&logoColor=white)
+- ![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=flat-square&logo=eslint&logoColor=white)
+- ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23864CBF.svg?style=flat-square&logo=redux&logoColor=white)
+- ![JSX](https://img.shields.io/badge/JSX-%23F7DF1E.svg?style=flat-square&logo=react&logoColor=black)
+- ![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white)
+- ![JPlayer](https://img.shields.io/badge/JPlayer-%23C71585.svg?style=flat-square)
+- ![React Router v6](https://img.shields.io/badge/React_Router_v6-%2300CC99.svg?style=flat-square&logo=react-router&logoColor=white)
+- ![Storybook](https://img.shields.io/badge/Storybook-%23FF4785.svg?style=flat-square&logo=storybook&logoColor=white)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Pages](#pages)
+- [Screenshots](#screenshots)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to get your project up and running on your local machine.
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have the following software installed on your computer:
 
-### `yarn build`
+- **Node.js:** Download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To check if Node.js is installed, open your terminal or command prompt and run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+node -v
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Yarn (optional):** Although npm (Node Package Manager) comes bundled with Node.js, we recommend using Yarn as your package manager. Install Yarn globally by following the instructions here: [Yarn Installation](https://classic.yarnpkg.com/en/docs/install/)
 
-### `yarn eject`
+or
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Check if npm is installed using
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm -v
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Then,
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run Command to install yarn on Linux/Mac
 
-## Learn More
+```
+sudo npm i -g yarn
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Windows
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install --global yarn
+```
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Step-by-step instructions on how to install and run your project locally.
 
-### Analyzing the Bundle Size
+#### Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+git clone https://github.com/HamzaAshfaq01/MegaPod-React-Storybook.git
+```
 
-### Making a Progressive Web App
+#### Navigate to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+cd MegaPod-React-Storybook
+```
 
-### Advanced Configuration
+#### Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+yarn add
+```
 
-### Deployment
+#### Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+yarn start
+```
 
-### `yarn build` fails to minify
+### Running StoryBook
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Step-by-step instructions on how to install and run your project locally.
+
+#### Navigate to the project directory
+
+```
+cd MegaPod-React-Storybook
+```
+
+#### Start the storybook server
+
+```
+yarn storybook
+```
+
+## Technologies Used
+
+- ReactJS
+- Sass
+- Bootstrap
+- Node.js
+- Yarn
+- ESLint
+- Redux Toolkit
+- JSX
+- jQuery
+- JPlayer
+- React Router v6
+- Storybook
+
+## Pages
+
+- Home Page
+- About Page
+- Blog Page
+- Single Blog Page
+- Episode Page
+- Single Episode Page
+- Contact Page
+
+## Screenshots
+
+### Application
+
+![MainPage](./screeshots/mainpage.png)
+
+### Storybook
+
+![MainPage](./screeshots/storybook.png)
+
+## License
+
+MIT License
