@@ -138,11 +138,11 @@ yarn storybook
 
 ### Application
 
-![MainPage](./screeshots/mainpage.png)
+![MainPage](https://github.com/HamzaAshfaq01/MegaPod-React-Storybook/raw/main/screeshots/mainpage.png)
 
 ### Storybook
 
-![MainPage](./screeshots/storybook.png)
+![MainPage](https://github.com/HamzaAshfaq01/MegaPod-React-Storybook/raw/main/screeshots/storybook.png)
 
 ## License
 
